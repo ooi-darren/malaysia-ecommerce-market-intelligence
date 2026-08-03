@@ -102,3 +102,54 @@ This document defines every variable used in the Malaysia E-Commerce Market Inte
 
 ### Known limitations
 - Same survey-cadence issue as `hh_income.csv`, but narrower: only 2022 and 2024 are available at state level within our window. Use for before/after state-level comparison, not for a trend line.
+
+---
+
+## ecommerce_income.csv
+
+**Source:** Compiled by author from five DOSM publications (see `references/`)
+**Classification:** DERIVED
+**Frequency:** Annual
+**Coverage:** 2020–2024
+**Description:** Malaysia's e-commerce transaction income, manually extracted and combined from five separate DOSM ICTEC and Digital Economy report PDFs, since no single official release covers the full 2020–2024 window.
+
+### Columns
+
+| Column | Type | Description |
+|---|---|---|
+| `year` | int | Reference year |
+| `income_rm_billion` | float | Total e-commerce transaction income (RM billion) |
+| `domestic_rm_billion` | float | Income from domestic market (RM billion) |
+| `international_rm_billion` | float | Income from international market (RM billion) |
+| `b2b_rm_billion` | float | Business-to-Business income (RM billion) |
+| `b2c_rm_billion` | float | Business-to-Consumer income (RM billion) |
+| `b2g_rm_billion` | float | Business-to-Government income (RM billion) |
+| `source_document` | string | Which PDF in `references/` this row's figures came from |
+
+### Known limitations
+- 2020 breakdown columns (domestic/international/B2B/B2C/B2G) are blank — the source document for that year only reported the headline total.
+- 2022 and 2023 totals are corroborated by two independent DOSM publications each; 2020, 2021, and 2024 rely on a single publication.
+- Figures were manually transcribed from PDF text, not programmatically parsed.
+
+---
+
+## multiTimeline.csv
+
+**Source:** Google Trends (trends.google.com)
+**Classification:** PUBLIC (proxy metric — see limitations)
+**Frequency:** Monthly
+**Coverage:** Jan 2020 – Dec 2025
+**Description:** Relative search interest for "Shopee," "Lazada," and "TikTok Shop" in Malaysia. Used as a free, directly-downloadable proxy for consumer attention in notebook 03.
+
+### Columns
+
+| Column | Type | Description |
+|---|---|---|
+| `month` | date | First day of the reporting month |
+| `shopee` | int | Search interest index for "Shopee," relative to the peak value across all three terms and the full date range (0–100) |
+| `lazada` | int | Search interest index for "Lazada," same relative scale |
+| `tiktok_shop` | int | Search interest index for "TikTok Shop," same relative scale. Original `<1` values converted to `0`. |
+
+### Known limitations
+- **Relative, not absolute.** Values represent search interest relative to the peak within this specific comparison — a score of "40" cannot be interpreted in isolation, and cannot be compared to a Trends export from a different query.
+- **Structurally understates TikTok Shop.** TikTok Shop's discovery-driven model (algorithmic feed, in-app livestreams) means users transact without searching for the platform by name — its real usage and GMV growth (confirmed independently at +150% in H1 2025) are not reflected in this search-interest data. See notebook 03 for the full discussion.
