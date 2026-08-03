@@ -22,7 +22,7 @@ Most public "e-commerce analysis" projects run customer segmentation or sales pr
 
 ## Data Sources
 
-Every dataset is labeled **PUBLIC** (official government source), **DERIVED** (compiled by the author from public sources), or **ESTIMATED** (third-party market research, not government-verified). Full definitions and known limitations are documented in [`DATA_DICTIONARY.md`](./DATA_DICTIONARY.md).
+Every dataset is labeled **PUBLIC** (official government source), **DERIVED** (compiled by the author from public sources), or **ESTIMATED** (third-party market research, not government-verified). Full definitions and known limitations for all six datasets are documented in [`DATA_DICTIONARY.md`](./DATA_DICTIONARY.md).
 
 | Dataset | Source | Classification | Frequency |
 |---|---|---|---|
