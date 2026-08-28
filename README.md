@@ -18,7 +18,7 @@ How has Malaysia's e-commerce competitive landscape evolved between 2020 and 202
 
 ## Why This Project
 
-Most public "e-commerce analysis" projects run customer segmentation or sales prediction on generic transactional datasets — a technical exercise with no country or market context. This project takes a different approach: a market-level competitive intelligence report, built the way a consulting analyst would build one, using official public data rather than a Kaggle download.
+Most public "e-commerce analysis" projects run customer segmentation or sales prediction on generic transactional datasets — a technical exercise with no country or market context. This project takes a different approach: a market-level competitive intelligence report, grounded in official public data with every figure traced to its source, rather than a Kaggle download.
 
 ## Data Sources
 
