@@ -153,3 +153,11 @@ This document defines every variable used in the Malaysia E-Commerce Market Inte
 ### Known limitations
 - **Relative, not absolute.** Values represent search interest relative to the peak within this specific comparison — a score of "40" cannot be interpreted in isolation, and cannot be compared to a Trends export from a different query.
 - **Structurally understates TikTok Shop.** TikTok Shop's discovery-driven model (algorithmic feed, in-app livestreams) means users transact without searching for the platform by name — its real usage and GMV growth (confirmed independently at +150% in H1 2025) are not reflected in this search-interest data. See notebook 03 for the full discussion.
+## Context / Secondary Sources (Qualitative)
+
+Each notebook's "Why Is This Happening?" section adds secondary-sourced explanation (industry/news reporting) for the mechanism behind that notebook's finding — not new PUBLIC/DERIVED/ESTIMATED datasets, so kept separate from the tables above.
+
+- MalaysiaTenders / public procurement reporting on ePerolehan scale and adoption — used in Notebook 01. https://www.malaysiatenders.com/public-procurement.php
+- PayNet, "8.44bil transactions processed in 2025 as digital payments become Malaysians' preferred way to pay" — used in Notebook 02. https://www.paynet.my/about-us/media-centre/press-release/8-44-billion-transactions-processed-in-2025-as-digital-payments-become-malaysians-preferred-way-to-pay.html
+- Digital in Asia, "How Did TikTok Shop Grow in Southeast Asia? A 2026 Analysis" — used in Notebook 03. https://digitalinasia.com/tiktok-shop-southeast-asia-growth-10x/
+- North Ridge Partners, "Live Commerce Examined: TikTok Takes Over in Southeast Asia" — used in Notebook 03. https://www.northridgepartners.com/content-news/live-commerce-examined-tiktok-takes-over
