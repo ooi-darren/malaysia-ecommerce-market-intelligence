@@ -1,5 +1,7 @@
 # Malaysia E-Commerce Market Intelligence Report (2020–2024)
 
+<img src="./assets/hero.png" width="720" alt="B2G is growing more than 4x faster than B2B or B2C">
+
 ## The Question
 
 How has Malaysia's e-commerce competitive landscape evolved between 2020 and 2024, and what should a business weigh when deciding where to invest?
@@ -45,6 +47,15 @@ Every dataset is labeled **PUBLIC** (official government source), **DERIVED** (c
 ## Methodology
 
 Business problem → objectives → data acquisition → cleaning → analysis → visualization → insight → recommendation. Every notebook opens with the question and the answer, then shows the reasoning between them — including what the data didn't support.
+
+## Reproducing This Analysis
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/
+```
+
+All data used is already included in `data/processed/` — notebooks read directly from there, so no external downloads are required to re-run the analysis.
 
 ## Repository Structure
 
