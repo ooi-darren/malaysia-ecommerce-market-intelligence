@@ -2,17 +2,7 @@
 
 <img src="./assets/hero.png" width="720" alt="B2G is growing more than 4x faster than B2B or B2C">
 
-## Explain It Simply
-
-Imagine three different kinds of shoppers buying things online in Malaysia: businesses buying from other businesses (B2B), regular people buying for themselves (B2C), and the government buying supplies and services (B2G). This project asks which of these is actually driving Malaysia's online shopping boom — and whether the popular assumption (that it's mostly "people shopping online") is even true.
-
-The answer has three parts:
-
-- **Which one is biggest?** Business-to-business, by a wide margin — most of the money isn't people buying shoes online, it's companies buying from other companies.
-- **Which one is growing fastest?** Business-to-government — mainly because the Malaysian government has been pushing more of its own purchasing online, not because more consumers are shopping.
-- **Which app is actually winning?** It depends how you measure it. The app people search for most (Shopee) and the app growing fastest right now (TikTok Shop) aren't the same app — because people increasingly discover what to buy on TikTok Shop without ever searching for it.
-
-The short version: "online shopping in Malaysia" is really three separate stories happening at once, each pushed forward by a different force — not the same trend counted three times. (New to terms like "B2B" or "GMV"? See the [Glossary](#glossary) near the bottom.)
+**Part of a [5-case-study portfolio](https://github.com/ooi-darren)** — see the other four.
 
 ## The Question
 
@@ -32,6 +22,18 @@ How has Malaysia's e-commerce competitive landscape evolved between 2020 and 202
 
 **3. Which platform is actually winning?** No single metric gives a clean answer. Shopee's search interest has declined steadily since 2021, yet it remains the dominant platform by GMV and scale — likely reflecting habitual, direct-app usage replacing search-driven discovery. TikTok Shop's search interest stayed flat near zero throughout, even as its Malaysia GMV grew 150% in H1 2025 alone — a platform whose real growth search data alone would never reveal. A multi-platform strategy is the more defensible position for most businesses than betting on one. *([Notebook 03](./notebooks/03-platform-competitive-landscape.ipynb))*
 **Why:** TikTok Shop is a discovery-driven platform (livestream selling, ~40% of its GMV) rather than a search-driven one like Shopee — most of its buyers never typed anything into a search bar in the first place. *(Full explanation in Notebook 03's "Why Is This Happening?" section.)*
+
+## Explain It Simply
+
+Imagine three different kinds of shoppers buying things online in Malaysia: businesses buying from other businesses (B2B), regular people buying for themselves (B2C), and the government buying supplies and services (B2G). This project asks which of these is actually driving Malaysia's online shopping boom — and whether the popular assumption (that it's mostly "people shopping online") is even true.
+
+The answer has three parts:
+
+- **Which one is biggest?** Business-to-business, by a wide margin — most of the money isn't people buying shoes online, it's companies buying from other companies.
+- **Which one is growing fastest?** Business-to-government — mainly because the Malaysian government has been pushing more of its own purchasing online, not because more consumers are shopping.
+- **Which app is actually winning?** It depends how you measure it. The app people search for most (Shopee) and the app growing fastest right now (TikTok Shop) aren't the same app — because people increasingly discover what to buy on TikTok Shop without ever searching for it.
+
+The short version: "online shopping in Malaysia" is really three separate stories happening at once, each pushed forward by a different force — not the same trend counted three times. (New to terms like "B2B" or "GMV"? See the [Glossary](#glossary) near the bottom.)
 
 ## Why This Project
 
