@@ -161,3 +161,4 @@ Each notebook's "Why Is This Happening?" section adds secondary-sourced explanat
 - PayNet, "8.44bil transactions processed in 2025 as digital payments become Malaysians' preferred way to pay"; used in Notebook 02. https://www.paynet.my/about-us/media-centre/press-release/8-44-billion-transactions-processed-in-2025-as-digital-payments-become-malaysians-preferred-way-to-pay.html
 - Digital in Asia, "How Did TikTok Shop Grow in Southeast Asia? A 2026 Analysis"; used in Notebook 03. https://digitalinasia.com/tiktok-shop-southeast-asia-growth-10x/
 - North Ridge Partners, "Live Commerce Examined: TikTok Takes Over in Southeast Asia"; used in Notebook 03. https://www.northridgepartners.com/content-news/live-commerce-examined-tiktok-takes-over
+- HeyCross, "TikTok Shop Nears Shopee with 15.7% Six-Month Traffic Growth" (Malaysia site-traffic comparison, June 2026); used in Notebook 03's GMV/traffic table. https://www.heycross.com/article/zGjngPQ19QlDY
