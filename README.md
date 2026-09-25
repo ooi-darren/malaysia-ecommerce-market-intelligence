@@ -2,7 +2,7 @@
 
 <img src="./assets/hero.png" width="720" alt="B2G is growing more than 4x faster than B2B or B2C">
 
-**Part of a [10-case-study portfolio](https://github.com/ooi-darren)**. See the other nine.
+**Part of a [11-case-study portfolio](https://github.com/ooi-darren)**. See the other ten.
 
 ## The Question
 
